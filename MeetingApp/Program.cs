@@ -9,7 +9,7 @@ var app = builder.Build();
 app.MapControllerRoute
 (
     name: "Default",
-    pattern: "{controller=Meeting}/{action=Index}/{id?}"
+    pattern: "{controller=Home}/{action=Index}/{id?}"
 );
 
 app.Run();
